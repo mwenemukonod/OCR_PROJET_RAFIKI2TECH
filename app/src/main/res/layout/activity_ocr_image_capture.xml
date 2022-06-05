@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".Ocr_image_capture">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/aide"
+        android:textColor="@color/purple_700"
+        android:textSize="14sp" />
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/imagecapture"
+        android:id="@+id/ouvrirdialogue"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:maxHeight="100dp"
+        />
+    <TextView
+        android:id="@+id/txtimgvisualisation"
+        android:background="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/stringimage"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/appercuimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="60dp"
+      />
+    <TextView
+        android:id="@+id/txtreconnu"
+        android:textStyle="bold"
+        android:background="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texte Reconnu sur l'image/Cliquer pour Copier"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/txtresultatocr"
+        android:textStyle="bold"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:autoLink="all"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="5dp"/>
+</LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

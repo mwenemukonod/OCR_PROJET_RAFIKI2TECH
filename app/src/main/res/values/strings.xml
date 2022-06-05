@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OCR_PROJET_RAFIKI2TECH</string>
+    <string name="stringimage">Visualisation de l\'image ci-dessous</string>
+    <string name="aide">Cliquez sur l\'image ci-dessous pour faire la capture d\'une image ou selectionner une image dans la gallerie photo</string>
+</resources>
